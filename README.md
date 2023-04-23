@@ -9,3 +9,5 @@ Add package from git URL:
 ```
 https://github.com/DiscreteTom/UniUtils.git
 ```
+
+## [CHANGELOG](https://github.com/DiscreteTom/UniUtils/blob/main/CHANGELOG.md)
