@@ -1,0 +1,13 @@
+{
+  "name": "com.discretetom.uniutils",
+  "displayName": "UniUtils",
+  "version": "1.0.0",
+  "unity": "2018.4",
+  "description": "A set of utils in Unity3D.",
+  "author": {
+    "name": "DiscreteTom",
+    "url": "https://github.com/DiscreteTom"
+  },
+  "changelogUrl": "https://github.com/DiscreteTom/UniUtils/blob/main/CHANGELOG.md",
+  "documentationUrl": "https://github.com/DiscreteTom/UniUtils"
+}
