@@ -22,5 +22,13 @@ namespace DT.UniUtils {
       }
       mb.StartCoroutine(InvokeRepeatingRoutine(f, delay, interval));
     }
+
+    public static void ExitGame(this MonoBehaviour mb) {
+#if UNITY_EDITOR
+      UnityEditor.EditorApplication.isPlaying = false;
+#else
+      UnityEngine.Application.Quit();
+#endif
+    }
   }
 }
