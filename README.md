@@ -13,4 +13,15 @@ Add package from git URL:
 https://github.com/DiscreteTom/UniUtils.git
 ```
 
+Include this package:
+
+```cs
+using DT.UniUtils;
+```
+
+## Related
+
+- [UniStart](https://github.com/DiscreteTom/UniStart.git) - An experimental Unity3D framework.
+- [CannonVsMosquito](https://github.com/DiscreteTom/CannonVsMosquito) - A demo game.
+
 ## [CHANGELOG](https://github.com/DiscreteTom/UniUtils/blob/main/CHANGELOG.md)
