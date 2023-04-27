@@ -1,7 +1,7 @@
 using UnityEngine;
 
 namespace DT.UniUtils {
-  static class ColorExtension {
+  public static class ColorExtension {
     public static Color WithRed(this Color original, float value) {
       return new Color(value, original.g, original.b, original.a);
     }

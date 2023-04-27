@@ -1,7 +1,7 @@
 using UnityEngine;
 
 namespace DT.UniUtils {
-  static class VectorExtension {
+  public static class VectorExtension {
     public static Vector2 WithX(this Vector2 original, float value) {
       return new Vector2(value, original.y);
     }

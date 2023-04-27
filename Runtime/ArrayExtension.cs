@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 namespace DT.UniUtils {
-  static class ArrayExtension {
+  public static class ArrayExtension {
     public static int BinarySearch<T>(this T[] array, T value, IComparer<T> comparer) {
       return Array.BinarySearch(array, value, comparer);
     }

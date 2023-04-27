@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 namespace DT.UniUtils {
-  static class TransformExtension {
+  public static class TransformExtension {
     public static void SetPositionX(this Transform original, float value) {
       original.position = original.position.WithX(value);
     }
