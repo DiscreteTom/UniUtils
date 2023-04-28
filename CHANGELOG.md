@@ -11,6 +11,7 @@
   - Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`. #2
   - Feat: add `BlinkSpriteRenderer/BlinkCanvasRenderer`. #2
   - Feat: add `ShakePosition/ShakeLocalPosition`.
+  - Feat: add `GrowUp`.
 
 ## v1.1.1
 
