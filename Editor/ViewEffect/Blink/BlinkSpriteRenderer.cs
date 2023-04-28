@@ -6,6 +6,7 @@ namespace DT.UniUtils.View {
     new void Start() {
       base.Start();
       if (this.startAlphaAsMax) this.maxAlpha = this.component.color.a;
+      if (this.randomPhase) this.phase = Random.Range(0, this.maxAlpha - this.minAlpha);
     }
 
     void Update() {

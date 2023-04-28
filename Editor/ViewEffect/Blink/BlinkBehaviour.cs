@@ -9,6 +9,8 @@ namespace DT.UniUtils.View {
     [Range(0, 1)]
     public float maxAlpha = 1f;
     public bool startAlphaAsMax = true;
+    public float phase = 0;
+    public bool randomPhase = false;
 
     protected T component;
 
@@ -17,7 +19,7 @@ namespace DT.UniUtils.View {
     }
 
     protected float GetAlpha() {
-      return Mathf.PingPong(Time.time * this.speed, this.maxAlpha - this.minAlpha) + this.minAlpha;
+      return Mathf.PingPong(this.phase + Time.time * this.speed, this.maxAlpha - this.minAlpha) + this.minAlpha;
     }
   }
 }
