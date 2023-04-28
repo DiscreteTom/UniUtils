@@ -1,0 +1,16 @@
+{
+    "name": "UniUtils.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c1be410f83f42144faa6c513116216d7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
