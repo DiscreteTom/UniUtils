@@ -8,8 +8,10 @@ namespace DT.UniUtils.View {
     public float minAlpha = 0f;
     [Range(0, 1)]
     public float maxAlpha = 1f;
-    public bool startAlphaAsMax = true;
+    [Tooltip("If true, will use the current alpha of the component as the max alpha")]
+    public bool startAlphaAsMax = false;
     public float phase = 0;
+    [Tooltip("If true, will randomize the phase between 0 and maxAlpha - minAlpha")]
     public bool randomPhase = false;
 
     protected T component;
