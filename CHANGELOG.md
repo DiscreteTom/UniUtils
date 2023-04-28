@@ -4,6 +4,7 @@
 
 - Re-org folders.
 - Feat: add `QuaternionExtension`.
+- Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
 
 ## v1.1.1
 
