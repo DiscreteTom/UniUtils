@@ -2,7 +2,8 @@
 
 ## v1.2.1
 
-Optimize programmatic interface for ViewEffect.
+- Optimize programmatic interface for ViewEffect.
+- Optimize folder structure.
 
 ## v1.2.0
 
