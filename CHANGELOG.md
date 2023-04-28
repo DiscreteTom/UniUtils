@@ -3,6 +3,7 @@
 ## v1.2.0
 
 - Re-org folders.
+- Feat: add `QuaternionExtension`.
 
 ## v1.1.1
 
