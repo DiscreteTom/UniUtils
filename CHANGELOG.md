@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.2.0
+
+- Re-org folders.
+
 ## v1.1.1
 
 Fix: make extensions public.
