@@ -4,12 +4,10 @@ namespace DT.UniUtils.View {
   [RequireComponent(typeof(SpriteRenderer))]
   public class BlinkSpriteRenderer : BlinkBehaviour<SpriteRenderer> {
     void Update() {
-      if (this.blinking)
-        this.component.WithAlpha(this.GetAlpha());
+      this.component.WithAlpha(this.GetAlpha());
     }
 
-    public override void StopBlink() {
-      base.StopBlink();
+    public void OnDisable() {
       this.component.WithAlpha(1);
     }
   }
