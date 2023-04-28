@@ -8,7 +8,7 @@ namespace DT.UniUtils.View {
         this.component.WithAlpha(this.GetAlpha());
     }
 
-    public void StopBlink() {
+    public override void StopBlink() {
       base.StopBlink();
       this.component.WithAlpha(1);
     }
