@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v1.2.1
+
+Optimize programmatic interface for ViewEffect.
+
 ## v1.2.0
 
 - Re-org folders.
