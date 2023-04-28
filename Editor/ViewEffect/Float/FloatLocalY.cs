@@ -2,12 +2,17 @@ using UnityEngine;
 
 namespace DT.UniUtils.View {
   public class FloatLocalY : FloatBehaviour {
-    void Start() {
-      if (this.useInitPosition) this.offset = this.transform.localPosition.y;
+    new void Start() {
+      base.Start();
+      if (this.useStartOffset) this.offset = this.transform.localPosition.y;
     }
 
     void Update() {
-      this.transform.SetLocalPositionY(this.offset + Mathf.Sin(this.timeOffset + Time.time * this.speed) * this.range);
+      this.transform.SetLocalPositionY(this.offset + Mathf.Sin(this.phase + Time.time * this.speed) * this.range);
+    }
+
+    void OnDisable() {
+      this.transform.SetLocalPositionY(this.offset);
     }
   }
 }
