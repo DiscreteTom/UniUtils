@@ -7,6 +7,7 @@
 - Feat: add `SpriteRendererExtension`.
 - Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
 - Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`.
+- Feat: add `BlinkSpriteRenderer`.
 
 ## v1.1.1
 
