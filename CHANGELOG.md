@@ -1,9 +1,10 @@
 # CHANGELOG
 
-## v1.2.1
+## v2.0.0
 
-- Optimize programmatic interface for ViewEffect.
+- Optimize/rewrite programmatic interface for ViewEffect.
 - Optimize folder structure.
+- Feat: add `KickOut2D`.
 
 ## v1.2.0
 
