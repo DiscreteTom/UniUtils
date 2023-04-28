@@ -3,11 +3,14 @@
 ## v1.2.0
 
 - Re-org folders.
-- Feat: add `QuaternionExtension`.
-- Feat: add `SpriteRendererExtension`.
-- Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
-- Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`. #2
-- Feat: add `BlinkSpriteRenderer/BlinkCanvasRenderer`. #2
+- Runtime/Extensions
+  - Feat: add `QuaternionExtension`.
+  - Feat: add `SpriteRendererExtension`.
+  - Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
+- Editor/ViewEffect
+  - Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`. #2
+  - Feat: add `BlinkSpriteRenderer/BlinkCanvasRenderer`. #2
+  - Feat: add `ShakePosition/ShakeLocalPosition`.
 
 ## v1.1.1
 
