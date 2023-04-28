@@ -4,6 +4,7 @@
 
 - Re-org folders.
 - Feat: add `QuaternionExtension`.
+- Feat: add `SpriteRendererExtension`.
 - Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
 - Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`.
 
