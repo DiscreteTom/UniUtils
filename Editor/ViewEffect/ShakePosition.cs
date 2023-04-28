@@ -1,10 +1,7 @@
 using UnityEngine;
 
 namespace DT.UniUtils.View {
-  public class ShakePosition : MonoBehaviour {
-    [Min(0)]
-    public float range = 1;
-    [SerializeField] bool shakeAtStart = true;
+  public class ShakePosition : ShakeBehaviour {
     [SerializeField] bool shakeZ = false;
     public bool shake {
       get {
@@ -21,7 +18,6 @@ namespace DT.UniUtils.View {
       }
     }
 
-    bool shaking = false;
     Vector3 initPos;
 
     void Start() {
@@ -31,10 +27,12 @@ namespace DT.UniUtils.View {
     }
 
     void Update() {
-      var randomX = Random.Range(-this.range, this.range);
-      var randomY = Random.Range(-this.range, this.range);
-      var randomZ = this.shakeZ ? Random.Range(-this.range, this.range) : 0;
-      this.transform.position = this.initPos + new Vector3(randomX, randomY, randomZ);
+      if (!this.shaking) return;
+
+      var x = this.GetShakeValue(this.initPos.x);
+      var y = this.GetShakeValue(this.initPos.y);
+      var z = this.shakeZ ? this.GetShakeValue(this.initPos.z) : this.initPos.z;
+      this.transform.position = new Vector3(x, y, z);
     }
   }
 }
