@@ -6,8 +6,8 @@
 - Feat: add `QuaternionExtension`.
 - Feat: add `SpriteRendererExtension`.
 - Feat: add `TransformExtension.SetLocalPositionX/Y/Z`/`SetLocalRotationX/Y/Z`/`SetLocalScaleX/Y/Z`/`SetRotationX/Y/Z`.
-- Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`.
-- Feat: add `BlinkSpriteRenderer/BlinkCanvasRenderer`.
+- Feat: add `FloatX/Y/Z`/`FloatLocalX/Y/Z`. #2
+- Feat: add `BlinkSpriteRenderer/BlinkCanvasRenderer`. #2
 
 ## v1.1.1
 
