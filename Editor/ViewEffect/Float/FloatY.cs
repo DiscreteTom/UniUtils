@@ -2,16 +2,16 @@ using UnityEngine;
 
 namespace DT.UniUtils.View {
   public class FloatY : FloatBehaviour {
-    protected new void Start() {
+    protected virtual new void Start() {
       base.Start();
       if (this.useStartOffset) this.offset = this.transform.position.y;
     }
 
-    protected void Update() {
+    protected virtual void Update() {
       this.transform.SetPositionY(this.offset + Mathf.Sin(this.phase + Time.time * this.speed) * this.range);
     }
 
-    protected void OnDisable() {
+    protected virtual void OnDisable() {
       this.transform.SetPositionY(this.offset);
     }
   }

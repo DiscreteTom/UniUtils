@@ -9,13 +9,13 @@ namespace DT.UniUtils.View {
     public bool useStartAsTarget = false;
     public float floatTolerance = 0.01f;
 
-    protected void Start() {
+    protected virtual void Start() {
       if (this.useStartAsInit) this.init = this.transform.localScale;
       if (this.useStartAsTarget) this.target = this.transform.localScale;
       this.transform.localScale = this.init;
     }
 
-    protected void Update() {
+    protected virtual void Update() {
       if ((this.transform.localScale - this.target).magnitude > this.floatTolerance) {
         this.transform.localScale = Vector3.MoveTowards(this.transform.localScale, this.target, this.speed * Time.deltaTime);
       } else {

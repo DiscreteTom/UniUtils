@@ -13,7 +13,7 @@ namespace DT.UniUtils.View {
     [Tooltip("If true, will use the current offset of the component as the offset")]
     public bool useStartOffset = true;
 
-    protected void Start() {
+    protected virtual void Start() {
       if (this.randomPhase) this.phase = Random.Range(-this.range, this.range);
     }
   }

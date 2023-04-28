@@ -16,11 +16,11 @@ namespace DT.UniUtils.View {
 
     protected T component;
 
-    protected void Start() {
+    protected virtual void Start() {
       this.component = this.GetComponent<T>();
     }
 
-    protected float GetAlpha() {
+    protected virtual float GetAlpha() {
       return Mathf.PingPong(this.phase + Time.time * this.speed, this.maxAlpha - this.minAlpha) + this.minAlpha;
     }
   }
