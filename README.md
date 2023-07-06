@@ -1,3 +1,5 @@
+> **Note**: Deprecated. UniUtils is merged with UniStart, use [UniStart](https://github.com/DiscreteTom/UniStart) instead.
+
 # UniUtils
 
 ![](https://img.shields.io/badge/dynamic/json?style=flat-square&color=blue&label=version&query=%24.version&url=https%3A%2F%2Fgithub.com%2FDiscreteTom%2FUniUtils%2Fraw%2Fmain%2Fpackage.json)
